@@ -1,0 +1,1 @@
+Start C:\Users\frederic\AppData\Local\Programs\Python\Python39\pythonw.exe D:\Python_projects\Stock\aliceblue_shortstraddle.py

@@ -1,0 +1,2 @@
+1) intial trailing condition
+2) Keep trailing

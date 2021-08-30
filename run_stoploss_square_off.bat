@@ -1,0 +1,1 @@
+Start "stoploss_aliceblue" C:\Users\frederic\AppData\Local\Programs\Python\Python39\python.exe D:\Python_projects\Stock\stoploss_square_off.py

@@ -1,0 +1,215 @@
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:Started Short Straddle @ 08/29/21-20:46:32
+INFO:root:Today is a market holiday
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:Started Short Straddle @ 08/29/21-20:47:30
+INFO:root:logging in alice blue
+INFO:root:using existing token
+INFO:root:Login failed Alice...retrying in 1 mins
+INFO:root:logging in alice blue
+INFO:alice_blue.alice_blue:Assuming answers for all 2FA questions are 'sheeja', Please change it to 'sheeja' if not
+INFO:alice_blue.alice_blue:access_token - B7b4kHkuGGGygMMizfat90vRr_-N4Xn6L7oKAOcYdOg.HD1QgwY3i8dRyjI5DAUpuTFbiXSJVqGtvWyPhToKx-4
+INFO:alice_blue.alice_blue:Downloading master contracts for exchange: NSE
+INFO:alice_blue.alice_blue:Downloading master contracts for exchange: NFO
+INFO:root:atm_ce35600..atm_pe35600
+INFO:root:getting current expiry date
+INFO:root:getting current atm_call price
+INFO:root:selling call option @ 316.3
+INFO:root:getting current atm_put price
+INFO:root:selling put option @ 284.6
+INFO:root:Rej
+INFO:root:Rej
+INFO:root:Rej
+INFO:root:Rej
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:Started Short Straddle @ 08/29/21-21:01:27
+INFO:root:logging in alice blue
+INFO:root:using existing token
+INFO:alice_blue.alice_blue:Downloading master contracts for exchange: NSE
+INFO:alice_blue.alice_blue:Downloading master contracts for exchange: NFO
+INFO:root:atm_ce35600..atm_pe35600
+INFO:root:getting current expiry date
+INFO:root:getting current atm_call price
+INFO:root:selling call option @ 316.3
+INFO:root:getting current atm_put price
+INFO:root:selling put option @ 284.6
+INFO:root:Rej
+INFO:root:Rej
+INFO:root:Rej
+INFO:root:Rej
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:Started Short Straddle @ 08/30/21-17:02:31
+INFO:root:logging in alice blue
+INFO:root:using existing token
+INFO:root:Login failed Alice...retrying in 1 mins
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:Started Short Straddle @ 08/30/21-17:03:55
+INFO:root:Today is not market expiry
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:Started Short Straddle @ 08/30/21-17:04:07
+INFO:root:logging in alice blue
+INFO:alice_blue.alice_blue:Assuming answers for all 2FA questions are 'sheeja', Please change it to 'sheeja' if not
+INFO:alice_blue.alice_blue:access_token - wW72uvq7laTClUGQesL_sOSSglL4sCdLEUjndqL-OoM._Yeg-lcLMNmba9SdRIC4taCs9DvCPybzSrtHv8QShMI
+INFO:alice_blue.alice_blue:Downloading master contracts for exchange: NSE
+INFO:alice_blue.alice_blue:Downloading master contracts for exchange: NFO
+INFO:root:atm_ce36300..atm_pe36300
+INFO:root:getting current expiry date
+INFO:root:getting current atm_call price
+INFO:root:selling call option @ 347.45
+INFO:root:getting current atm_put price
+INFO:root:selling put option @ 218.0
+INFO:root:Rej
+INFO:root:Squaring off...BANKNIFTY2190235900CE...type -> MIS...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190235900PE...type -> MIS...quantity -> 0
+INFO:root:Rej
+INFO:root:Squaring off...BANKNIFTY2190235900CE...type -> MIS...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190235900PE...type -> MIS...quantity -> 0
+INFO:root:Rej
+INFO:root:Squaring off...BANKNIFTY2190235900CE...type -> MIS...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190235900PE...type -> MIS...quantity -> 0
+INFO:root:Rej
+INFO:root:Squaring off...BANKNIFTY2190235900CE...type -> MIS...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190235900PE...type -> MIS...quantity -> 0
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:Started Short Straddle @ 08/30/21-17:06:16
+INFO:root:logging in alice blue
+INFO:root:using existing token
+INFO:alice_blue.alice_blue:Downloading master contracts for exchange: NSE
+INFO:alice_blue.alice_blue:Downloading master contracts for exchange: NFO
+INFO:root:atm_ce36300..atm_pe36300
+INFO:root:getting current expiry date
+INFO:root:getting current atm_call price
+INFO:root:selling call option @ 347.45
+INFO:root:getting current atm_put price
+INFO:root:selling put option @ 218.0
+INFO:root:Rej
+INFO:root:Squaring off...BANKNIFTY2190235900CE...type -> MIS...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190235900PE...type -> MIS...quantity -> 0
+INFO:root:Rej
+INFO:root:Squaring off...BANKNIFTY2190235900CE...type -> MIS...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190235900PE...type -> MIS...quantity -> 0
+INFO:root:Rej
+INFO:root:Squaring off...BANKNIFTY2190235900CE...type -> MIS...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190235900PE...type -> MIS...quantity -> 0
+INFO:root:Rej
+INFO:root:Squaring off...BANKNIFTY2190235900CE...type -> MIS...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190235900PE...type -> MIS...quantity -> 0
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:Started Short Straddle @ 08/30/21-17:30:08
+INFO:root:logging in alice blue
+INFO:root:using existing token
+INFO:alice_blue.alice_blue:Downloading master contracts for exchange: NSE
+INFO:alice_blue.alice_blue:Downloading master contracts for exchange: NFO
+INFO:root:Time is past 10.10. So exiting the program
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:Started Short Straddle @ 08/30/21-17:30:45
+INFO:root:logging in alice blue
+INFO:alice_blue.alice_blue:Assuming answers for all 2FA questions are 'sheeja', Please change it to 'sheeja' if not
+INFO:alice_blue.alice_blue:access_token - lXPrpmxurSWWkE57FIPilJcSmtr7-MKe9VDQ-0YU5co.wPq2-qCKsIcjUAxyAPH-byRHZrs0dOd-Usk-2CmTeHU
+INFO:alice_blue.alice_blue:Downloading master contracts for exchange: NSE
+INFO:alice_blue.alice_blue:Downloading master contracts for exchange: NFO
+INFO:root:atm_ce36300..atm_pe36300
+INFO:root:getting current expiry date
+INFO:root:getting current atm_call price
+INFO:root:selling call option @ 347.45
+INFO:root:getting current atm_put price
+INFO:root:selling put option @ 218.0
+INFO:root:Rej
+INFO:root:Squaring off...BANKNIFTY2190235900CE...type -> MIS...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190235900PE...type -> MIS...quantity -> 0
+INFO:root:Rej
+INFO:root:Squaring off...BANKNIFTY2190235900CE...type -> MIS...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190235900PE...type -> MIS...quantity -> 0
+INFO:root:Rej
+INFO:root:Squaring off...BANKNIFTY2190235900CE...type -> MIS...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190235900PE...type -> MIS...quantity -> 0
+INFO:root:Rej
+INFO:root:Squaring off...BANKNIFTY2190235900CE...type -> MIS...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190235900PE...type -> MIS...quantity -> 0
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:Started Short Straddle @ 08/30/21-17:32:26
+INFO:root:logging in alice blue
+INFO:root:using existing token
+INFO:alice_blue.alice_blue:Downloading master contracts for exchange: NSE
+INFO:alice_blue.alice_blue:Downloading master contracts for exchange: NFO
+INFO:root:atm_ce36300..atm_pe36300
+INFO:root:getting current expiry date
+INFO:root:getting current atm_call price
+INFO:root:selling call option @ 347.45
+INFO:root:getting current atm_put price
+INFO:root:selling put option @ 218.0
+INFO:root:Rej
+INFO:root:Squaring off...BANKNIFTY2190235900CE...type -> MIS...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190235900PE...type -> MIS...quantity -> 0
+INFO:root:Rej
+INFO:root:Squaring off...BANKNIFTY2190235900CE...type -> MIS...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190235900PE...type -> MIS...quantity -> 0
+INFO:root:Rej
+INFO:root:Squaring off...BANKNIFTY2190235900CE...type -> MIS...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190235900PE...type -> MIS...quantity -> 0
+INFO:root:Rej
+INFO:root:Squaring off...BANKNIFTY2190235900CE...type -> MIS...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190235900PE...type -> MIS...quantity -> 0
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:Started Short Straddle @ 08/30/21-17:32:58
+INFO:root:logging in alice blue
+INFO:alice_blue.alice_blue:Assuming answers for all 2FA questions are 'sheeja', Please change it to 'sheeja' if not
+INFO:alice_blue.alice_blue:access_token - csvXrhVSFM2d06uW79oiHH3Lj8LThWh4iF6diBjregw.Otd9RAt211cHuZkjGDRctJLoaGRN8s-oEvQrIzyVMJc
+INFO:alice_blue.alice_blue:Downloading master contracts for exchange: NSE
+INFO:alice_blue.alice_blue:Downloading master contracts for exchange: NFO
+INFO:root:atm_ce36300..atm_pe36300
+INFO:root:getting current expiry date
+INFO:root:getting current atm_call price
+INFO:root:selling call option @ 347.45
+INFO:root:getting current atm_put price
+INFO:root:selling put option @ 218.0
+INFO:root:Rej
+INFO:root:Squaring off...BANKNIFTY2190235900CE...type -> MIS...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190235900PE...type -> MIS...quantity -> 0
+INFO:root:Rej
+INFO:root:Squaring off...BANKNIFTY2190235900CE...type -> MIS...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190235900PE...type -> MIS...quantity -> 0
+INFO:root:Rej
+INFO:root:Squaring off...BANKNIFTY2190235900CE...type -> MIS...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190235900PE...type -> MIS...quantity -> 0
+INFO:root:Rej
+INFO:root:Squaring off...BANKNIFTY2190235900CE...type -> MIS...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190235900PE...type -> MIS...quantity -> 0
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:Started Short Straddle @ 08/30/21-17:34:12
+INFO:root:logging in alice blue
+INFO:root:using existing token
+INFO:root:Login failed Alice...retrying in 1 mins
+INFO:root:logging in alice blue
+INFO:alice_blue.alice_blue:Assuming answers for all 2FA questions are 'sheeja', Please change it to 'sheeja' if not
+INFO:alice_blue.alice_blue:access_token - ljcYN16FBxeHoyGGbO-R3-mXoGa0Sz9UAiOfm6Lm7U8.-OYAed5dO04pxZQZBjZkw47LbG1jcen_tbgNA65XBwI
+INFO:alice_blue.alice_blue:Downloading master contracts for exchange: NSE
+INFO:alice_blue.alice_blue:Downloading master contracts for exchange: NFO
+INFO:root:atm_ce36300..atm_pe36300
+INFO:root:getting current expiry date
+INFO:root:getting current atm_call price
+INFO:root:selling call option @ 347.45
+INFO:root:getting current atm_put price
+INFO:root:selling put option @ 218.0
+INFO:root:Rej
+INFO:root:Squaring off...BANKNIFTY2190235900CE...type -> MIS...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190235900PE...type -> MIS...quantity -> 0
+INFO:root:Rej
+INFO:root:Squaring off...BANKNIFTY2190235900CE...type -> MIS...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190235900PE...type -> MIS...quantity -> 0
+INFO:root:Rej
+INFO:root:Squaring off...BANKNIFTY2190235900CE...type -> MIS...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190235900PE...type -> MIS...quantity -> 0
+INFO:root:Rej
+INFO:root:Squaring off...BANKNIFTY2190235900CE...type -> MIS...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190235900PE...type -> MIS...quantity -> 0
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
