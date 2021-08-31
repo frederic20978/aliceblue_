@@ -6,6 +6,9 @@ __pycache__/
 # json
 *details.json
 
+# credentials
+credentials/
+
 # C extensions
 *.so
 

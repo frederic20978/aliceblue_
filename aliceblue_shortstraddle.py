@@ -13,7 +13,7 @@ from protlib import CUChar
 
 # Config
 
-f = open('details.json',)
+f = open('credentials/details.json',)
 data = json.load(f)
 
 username = data['username']
@@ -248,7 +248,7 @@ def main():
                 logging.info('Time not 10.00pm waiting for 1min')
                 sleep(60)
 
-            if datetime.now().time()<=time(23,10):
+            if datetime.now().time()<=time(14,10):
                 try:
                     while order_placed==False:
                         curr_ltp = get_BankNIftyIndexPrice()

@@ -7,7 +7,7 @@ from square_off import square_off
 import sys
 
 # Config
-f = open('details.json',)
+f = open('credentials/details.json',)
 data = json.load(f)
 
 username = data['username']

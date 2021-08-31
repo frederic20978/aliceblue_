@@ -12,7 +12,7 @@ from protlib import CUChar
 
 
 # Config
-f = open('details.json',)
+f = open('credentials/details.json',)
 data = json.load(f)
 
 username = data['username']
