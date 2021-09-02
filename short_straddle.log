@@ -266,3 +266,77 @@ INFO:root:selling call option @ 255.35
 INFO:root:getting current atm_put price
 INFO:root:selling put option @ 208.1
 INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:Started Short Straddle @ 09/02/21-21:16:53
+INFO:root:logging in alice blue
+INFO:root:using existing token
+INFO:root:Login failed Alice...retrying in 1 mins
+INFO:root:logging in alice blue
+INFO:alice_blue.alice_blue:Assuming answers for all 2FA questions are 'sheeja', Please change it to 'sheeja' if not
+INFO:alice_blue.alice_blue:access_token - SUCgvWTVIULr65hdxz_M4NIROAqfQdnZtaRv0BGZn_w.Mt19u-AL1jow9f4kvHBrlHfgsfN-fNk8vm8np986fT4
+INFO:alice_blue.alice_blue:Downloading master contracts for exchange: NSE
+INFO:alice_blue.alice_blue:Downloading master contracts for exchange: NFO
+INFO:root:atm_ce36800..atm_pe36800
+INFO:root:getting current expiry date
+INFO:root:getting current atm_call price
+INFO:root:selling call option @ 31.5
+INFO:root:getting current atm_put price
+INFO:root:selling put option @ 0.05
+INFO:root:Rej
+INFO:root:Squaring off...BANKNIFTY2190236600CE...type -> NRML...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190236600PE...type -> NRML...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190236800CE...type -> NRML...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190236800PE...type -> NRML...quantity -> 0
+INFO:root:Rej
+INFO:root:Squaring off...BANKNIFTY2190236600CE...type -> NRML...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190236600PE...type -> NRML...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190236800CE...type -> NRML...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190236800PE...type -> NRML...quantity -> 0
+INFO:root:Rej
+INFO:root:Squaring off...BANKNIFTY2190236600CE...type -> NRML...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190236600PE...type -> NRML...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190236800CE...type -> NRML...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190236800PE...type -> NRML...quantity -> 0
+INFO:root:Rej
+INFO:root:Squaring off...BANKNIFTY2190236600CE...type -> NRML...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190236600PE...type -> NRML...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190236800CE...type -> NRML...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190236800PE...type -> NRML...quantity -> 0
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:Started Short Straddle @ 09/02/21-21:25:54
+INFO:root:logging in alice blue
+INFO:root:using existing token
+INFO:alice_blue.alice_blue:Downloading master contracts for exchange: NSE
+INFO:alice_blue.alice_blue:Downloading master contracts for exchange: NFO
+INFO:root:Squaring off...BANKNIFTY2190236600CE...type -> NRML...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190236600PE...type -> NRML...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190236800CE...type -> NRML...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190236800PE...type -> NRML...quantity -> 0
+INFO:root:atm_ce36800..atm_pe36800
+INFO:root:getting current expiry date
+INFO:root:getting current atm_call price
+INFO:root:selling call option @ 31.5
+INFO:root:getting current atm_put price
+INFO:root:selling put option @ 0.05
+INFO:root:Rej
+INFO:root:Squaring off...BANKNIFTY2190236600CE...type -> NRML...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190236600PE...type -> NRML...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190236800CE...type -> NRML...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190236800PE...type -> NRML...quantity -> 0
+INFO:root:Rej
+INFO:root:Squaring off...BANKNIFTY2190236600CE...type -> NRML...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190236600PE...type -> NRML...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190236800CE...type -> NRML...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190236800PE...type -> NRML...quantity -> 0
+INFO:root:Rej
+INFO:root:Squaring off...BANKNIFTY2190236600CE...type -> NRML...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190236600PE...type -> NRML...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190236800CE...type -> NRML...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190236800PE...type -> NRML...quantity -> 0
+INFO:root:Rej
+INFO:root:Squaring off...BANKNIFTY2190236600CE...type -> NRML...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190236600PE...type -> NRML...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190236800CE...type -> NRML...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2190236800PE...type -> NRML...quantity -> 0
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

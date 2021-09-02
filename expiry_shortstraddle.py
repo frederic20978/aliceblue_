@@ -3,6 +3,7 @@ import requests
 import datetime
 import sys
 import json
+import pickle
 from time import sleep
 from alice_blue import *
 from datetime import datetime,timedelta,date,time
@@ -201,7 +202,15 @@ def get_BankNIftyIndexPrice():
         return data['quoteResponse']['result'][0]['regularMarketPrice']
     
 def main():
-    if date.today().weekday() in [3]:
+    try:
+        with open('credentials/file.pkl', 'rb') as file:
+            saved_details = pickle.load(file)
+        expiryDate = saved_details['date']
+    except Exception as e:
+        expiryDate = date.today()
+        print('Error occured in opening file')
+
+    if ((date.today().weekday() in [3]) & (date.today().weekday() in[expiryDate.weekday()])):
         try:
             global socket_opened
             global alice

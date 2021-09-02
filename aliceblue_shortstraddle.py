@@ -4,6 +4,7 @@ import datetime
 import sys
 import json
 from time import sleep
+import pickle
 from alice_blue import *
 from datetime import datetime,timedelta,date,time
 from square_off import square_off
@@ -248,7 +249,7 @@ def main():
                 logging.info('Time not 10.00pm waiting for 1min')
                 sleep(60)
 
-            if datetime.now().time()<=time(14,10):
+            if datetime.now().time()<=time(10,10):
                 try:
                     while order_placed==False:
                         curr_ltp = get_BankNIftyIndexPrice()
@@ -268,7 +269,15 @@ def main():
                                 print("Rej")
                                 logging.info("Rej")
                                 square_off(alice)
+                            
                         order_placed = True
+                        saveDetails = {'date': datecalc,'orders':curr_orders}
+                        try:
+                            with open('credentials/file.pkl', 'wb') as file:
+                                pickle.dump(saveDetails, file)
+                        except Exception as e:
+                            print("Some error in oprnign file for writing")
+                            logging.info("Some error in oprnign file for writing")
                 except Exception as e:
                     print('Some error occured in main so existing the position:::->',e)
                     square_off(alice)

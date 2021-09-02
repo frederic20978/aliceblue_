@@ -1,5 +1,6 @@
 import logging
 import json
+import pickle
 from datetime import date,datetime,time
 from time import sleep
 from alice_blue import *
@@ -17,7 +18,6 @@ twoFA = data['twoFA']
 app_id = data['app_id']
 
 nse_holiday = [date(2021,7,21), date(2021,8,19), date(2021,9,10), date(2021,10,15), date(2021,11,5), date(2021,11,19)]
-
     
 def main():
     try:
@@ -51,9 +51,17 @@ def main():
                 open('access_token.txt', 'w').close()
                 sleep(60)
                 pass
+        try:
+            with open('credentials/file.pkl', 'rb') as file:
+                saved_details = pickle.load(file)
+            expiryDate = saved_details['date']
+        except Exception as e:
+            expiryDate = date.today()
+            print('Error occured in opening file')
 
         till_time = time(15,00)
-        if date.today().weekday() in [3]:
+        if ((date.today().weekday() in [3]) & (date.today().weekday() in [expiryDate.weekday()])):
+            print('Expiry day')
             till_time = time(13,58)
 
         while datetime.now().time()<till_time:
