@@ -340,3 +340,73 @@ INFO:root:Squaring off...BANKNIFTY2190236600PE...type -> NRML...quantity -> 0
 INFO:root:Squaring off...BANKNIFTY2190236800CE...type -> NRML...quantity -> 0
 INFO:root:Squaring off...BANKNIFTY2190236800PE...type -> NRML...quantity -> 0
 INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:Started Short Straddle @ 09/18/21-12:41:17
+INFO:root:Today is a market holiday
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:Started Short Straddle @ 09/18/21-12:41:30
+INFO:root:logging in alice blue
+INFO:root:using existing token
+INFO:root:Login failed Alice...retrying in 1 mins
+INFO:root:logging in alice blue
+INFO:alice_blue.alice_blue:Assuming answers for all 2FA questions are '1997', Please change it to '1997' if not
+INFO:alice_blue.alice_blue:access_token - Ho_Io2aGnP1JR2QIH9vZ91SbfbzvKLtRTtJCot2OgO4.ZK-OwbK2JyRvkhEXz9VvkSUv_FU27-Zm0sLrpyhiD4U
+INFO:alice_blue.alice_blue:Downloading master contracts for exchange: NSE
+INFO:alice_blue.alice_blue:Downloading master contracts for exchange: NFO
+INFO:root:atm_ce37800..atm_pe37800
+INFO:root:getting current expiry date
+INFO:root:getting current atm_call price
+INFO:root:selling call option @ 322.2
+INFO:root:getting current atm_put price
+INFO:root:selling put option @ 329.6
+INFO:root:Rej
+INFO:root:Rej
+INFO:root:Rej
+INFO:root:Rej
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:Started Short Straddle @ 09/18/21-12:43:01
+INFO:root:logging in alice blue
+INFO:root:using existing token
+INFO:alice_blue.alice_blue:Downloading master contracts for exchange: NSE
+INFO:alice_blue.alice_blue:Downloading master contracts for exchange: NFO
+INFO:root:atm_ce37800..atm_pe37800
+INFO:root:getting current expiry date
+INFO:root:getting current atm_call price
+INFO:root:selling call option @ 322.2
+INFO:root:getting current atm_put price
+INFO:root:selling put option @ 329.6
+INFO:root:Rej
+INFO:root:Rej
+INFO:root:Rej
+INFO:root:Rej
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:Started Short Straddle @ 09/18/21-12:43:29
+INFO:root:logging in alice blue
+INFO:alice_blue.alice_blue:Assuming answers for all 2FA questions are 'sheeja', Please change it to 'sheeja' if not
+ERROR:alice_blue.alice_blue:Couldn't get access token {'error': 'invalid_grant', 'error_description': 'The provided authorization grant (e.g., authorization code, resource owner credentials) or refresh token is invalid, expired, revoked, does not match the redirection URI used in the authorization request, or was issued to another client', 'status_code': 400}
+INFO:root:Login failed Alice...retrying in 1 mins
+INFO:root:logging in alice blue
+INFO:alice_blue.alice_blue:Assuming answers for all 2FA questions are 'sheeja', Please change it to 'sheeja' if not
+ERROR:alice_blue.alice_blue:Couldn't get access token {'error': 'invalid_grant', 'error_description': 'The provided authorization grant (e.g., authorization code, resource owner credentials) or refresh token is invalid, expired, revoked, does not match the redirection URI used in the authorization request, or was issued to another client', 'status_code': 400}
+INFO:root:Login failed Alice...retrying in 1 mins
+INFO:root:logging in alice blue
+INFO:alice_blue.alice_blue:Assuming answers for all 2FA questions are 'sheeja', Please change it to 'sheeja' if not
+ERROR:alice_blue.alice_blue:Couldn't get access token {'error': 'invalid_grant', 'error_description': 'The provided authorization grant (e.g., authorization code, resource owner credentials) or refresh token is invalid, expired, revoked, does not match the redirection URI used in the authorization request, or was issued to another client', 'status_code': 400}
+INFO:root:Login failed Alice...retrying in 1 mins
+INFO:root:logging in alice blue
+ERROR:alice_blue.alice_blue:Couldn't login <p class="error">User Blocked Contact System Administrator</p>
+INFO:root:Login failed Alice...retrying in 1 mins
+INFO:root:logging in alice blue
+ERROR:alice_blue.alice_blue:Couldn't login <p class="error">User Blocked Contact System Administrator</p>
+INFO:root:Login failed Alice...retrying in 1 mins
+INFO:root:logging in alice blue
+ERROR:alice_blue.alice_blue:Couldn't login <p class="error">User Blocked Contact System Administrator</p>
+INFO:root:Login failed Alice...retrying in 1 mins
+INFO:root:logging in alice blue
+ERROR:alice_blue.alice_blue:Couldn't login <p class="error">User Blocked Contact System Administrator</p>
+INFO:root:Login failed Alice...retrying in 1 mins
+INFO:root:logging in alice blue
+ERROR:alice_blue.alice_blue:Couldn't login <p class="error">User Blocked Contact System Administrator</p>
+INFO:root:Login failed Alice...retrying in 1 mins

@@ -69,15 +69,15 @@ def sell_ce_option(bn_call,ce_price):
                          is_amo = False)
     
     curr_orders.append(sell_order['data']['oms_order_id'])
-    sleep(1)
+    
     if sell_order['status'] == 'success':
         sl_order = alice.place_order(transaction_type = TransactionType.Buy,
                      instrument = bn_call,
                      quantity = quantity,
                      order_type = OrderType.StopLossLimit,
                      product_type = ProductType.Delivery,
-                     price = float(round((1 + sl_percentage)*ce_price))+10,
-                     trigger_price = float(round((1 + sl_percentage)*ce_price)),
+                     price = float(round((1 + sl_percentage)*ltp))+10,
+                     trigger_price = float(round((1 + sl_percentage)*ltp)),
                      stop_loss = None,
                      square_off = None,
                      trailing_sl = None,
@@ -105,7 +105,6 @@ def sell_pe_option(bn_put,pe_price):
                          is_amo = False)
     
     curr_orders.append(sell_order['data']['oms_order_id'])
-    sleep(1)
 
     if sell_order['status'] == 'success':
         sl_order = alice.place_order(transaction_type = TransactionType.Buy,
@@ -113,8 +112,8 @@ def sell_pe_option(bn_put,pe_price):
                      quantity = quantity,
                      order_type = OrderType.StopLossLimit,
                      product_type = ProductType.Delivery,
-                     price = float(round((1 + sl_percentage)*pe_price)) + 10,
-                     trigger_price = float(round((1 + sl_percentage)*pe_price)),
+                     price = float(round((1 + sl_percentage)*ltp)) + 10,
+                     trigger_price = float(round((1 + sl_percentage)*ltp)),
                      stop_loss = None,
                      square_off = None,
                      trailing_sl = None,
