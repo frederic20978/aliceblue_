@@ -54,9 +54,14 @@ def main():
                 sleep(60)
                 pass
 
-        while datetime.now().time()<time(15,29):
-            print('Time 3.29pm not reached waiting for 1 more min')
-            logging.info('Time 3.29pm not reached waiting for 1 more min')
+        till_time = time(15,15)
+        if (date.today().weekday() in [3]):
+            print('Expiry day')
+            till_time = time(15,28)
+
+        while datetime.now().time()<till_time:
+            print('Time 3.25pm not reached waiting for 1 more min')
+            logging.info('Time 3.25pm not reached waiting for 1 more min')
             sleep(60)
         
         try:

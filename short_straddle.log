@@ -410,3 +410,32 @@ INFO:root:Login failed Alice...retrying in 1 mins
 INFO:root:logging in alice blue
 ERROR:alice_blue.alice_blue:Couldn't login <p class="error">User Blocked Contact System Administrator</p>
 INFO:root:Login failed Alice...retrying in 1 mins
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:Started Short Straddle @ 09/28/21-10:23:20
+INFO:root:logging in alice blue
+INFO:root:using existing token
+INFO:root:Login failed Alice...retrying in 1 mins
+INFO:root:logging in alice blue
+ERROR:alice_blue.alice_blue:Couldn't login <p class="error">User Blocked Contact System Administrator</p>
+INFO:root:Login failed Alice...retrying in 1 mins
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:Started Short Straddle @ 09/28/21-10:30:00
+INFO:root:logging in alice blue
+INFO:alice_blue.alice_blue:access_token - hTLGPQ_BUt1CpxBtWyR4uqb1cQYEKvoFlwAD3LaT8z8.L-vecSlBDEyj4TJXEz0yemvpKZ7hARw6CtpmczCkbsI
+INFO:alice_blue.alice_blue:Downloading master contracts for exchange: NSE
+INFO:alice_blue.alice_blue:Downloading master contracts for exchange: NFO
+INFO:root:Time is past 10.10. So exiting the program
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:Started Short Straddle @ 09/28/21-10:30:29
+INFO:root:logging in alice blue
+INFO:root:using existing token
+INFO:alice_blue.alice_blue:Downloading master contracts for exchange: NSE
+INFO:alice_blue.alice_blue:Downloading master contracts for exchange: NFO
+INFO:root:atm_ce38100..atm_pe38100
+INFO:root:getting current expiry date
+INFO:root:getting current atm_call price
+INFO:root:selling call option @ 289.4
+INFO:root:getting current atm_put price
+INFO:root:selling put option @ 281.85
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

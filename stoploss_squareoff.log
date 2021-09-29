@@ -380,3 +380,26 @@ INFO:root:Squaring off...BANKNIFTY2190236600PE...type -> NRML...quantity -> 0
 INFO:root:Squaring off...BANKNIFTY2190236800CE...type -> NRML...quantity -> 0
 INFO:root:Squaring off...BANKNIFTY2190236800PE...type -> NRML...quantity -> 0
 INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:Started StopLoss Square off @ 09/21/21-15:43:42
+INFO:root:logging in alice blue
+INFO:alice_blue.alice_blue:Assuming answers for all 2FA questions are '1997', Please change it to '1997' if not
+INFO:alice_blue.alice_blue:access_token - CksRXG-gSDQzcDJ1JQfvs75ZceO7Haz4C0kBiLrNz3E.tshDBsoBMf9XQy3G2ekV874HOGE4XnwGTKypdhX2oJQ
+INFO:alice_blue.alice_blue:Downloading master contracts for exchange: NSE
+INFO:alice_blue.alice_blue:Downloading master contracts for exchange: NFO
+INFO:root:BANKNIFTY2192337000CE...m2m -> -2,992.50...unrealizedPnL -> 0.00
+INFO:root:BANKNIFTY2192337000PE...m2m -> -6,933.75...unrealizedPnL -> 0.00
+INFO:root:Total PnL -> -9926.25
+INFO:root:Squaring off...BANKNIFTY2192337000CE...type -> NRML...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2192337000PE...type -> NRML...quantity -> 0
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:Started StopLoss Square off @ 09/21/21-15:45:51
+INFO:root:logging in alice blue
+INFO:root:using existing token
+INFO:alice_blue.alice_blue:Downloading master contracts for exchange: NSE
+INFO:alice_blue.alice_blue:Downloading master contracts for exchange: NFO
+INFO:root:BANKNIFTY2192337000CE...m2m -> -2,992.50...unrealizedPnL -> 0.00
+INFO:root:BANKNIFTY2192337000PE...m2m -> -6,933.75...unrealizedPnL -> 0.00
+INFO:root:Total PnL -> -9926.25
+INFO:root:Squaring off...BANKNIFTY2192337000CE...type -> NRML...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY2192337000PE...type -> NRML...quantity -> 0
