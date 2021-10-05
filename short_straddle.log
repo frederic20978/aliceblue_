@@ -439,3 +439,23 @@ INFO:root:selling call option @ 289.4
 INFO:root:getting current atm_put price
 INFO:root:selling put option @ 281.85
 INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:Started Short Straddle @ 09/30/21-14:07:06
+INFO:root:logging in alice blue
+INFO:root:using existing token
+INFO:root:Login failed Alice...retrying in 1 mins
+INFO:root:logging in alice blue
+INFO:alice_blue.alice_blue:access_token - 5y7BkVsjVVHMbkniFksXzM3yOhLuUVEcsTVWjm5UdDU.5y0easapYiUqtS5Pigc87ZiRCgTSM8ao3KrkyMxnCcU
+INFO:alice_blue.alice_blue:Downloading master contracts for exchange: NSE
+INFO:alice_blue.alice_blue:Downloading master contracts for exchange: NFO
+INFO:root:Squaring off...BANKNIFTY21SEP37600CE...type -> NRML...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY21SEP37600PE...type -> NRML...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY21SEP37800CE...type -> NRML...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY21SEP37800PE...type -> NRML...quantity -> 0
+INFO:root:atm_ce37500..atm_pe37500
+INFO:root:getting current expiry date
+INFO:root:getting current atm_call price
+INFO:root:selling call option @ 109.5
+INFO:root:getting current atm_put price
+INFO:root:selling put option @ 51.55
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

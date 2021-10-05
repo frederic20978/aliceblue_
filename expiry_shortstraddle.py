@@ -68,6 +68,7 @@ def sell_ce_option(bn_call,ce_price):
                          trailing_sl = None,
                          is_amo = False)
     
+    trig = float(round((1 + sl_percentage)*ltp))
     curr_orders.append(sell_order['data']['oms_order_id'])
     
     if sell_order['status'] == 'success':
@@ -76,8 +77,8 @@ def sell_ce_option(bn_call,ce_price):
                      quantity = quantity,
                      order_type = OrderType.StopLossLimit,
                      product_type = ProductType.Delivery,
-                     price = float(round((1 + sl_percentage)*ltp))+10,
-                     trigger_price = float(round((1 + sl_percentage)*ltp)),
+                     price = trig + 20,
+                     trigger_price = trig,
                      stop_loss = None,
                      square_off = None,
                      trailing_sl = None,
@@ -104,6 +105,7 @@ def sell_pe_option(bn_put,pe_price):
                          trailing_sl = None,
                          is_amo = False)
     
+    trig = float(round((1 + sl_percentage)*ltp))
     curr_orders.append(sell_order['data']['oms_order_id'])
 
     if sell_order['status'] == 'success':
@@ -112,8 +114,8 @@ def sell_pe_option(bn_put,pe_price):
                      quantity = quantity,
                      order_type = OrderType.StopLossLimit,
                      product_type = ProductType.Delivery,
-                     price = float(round((1 + sl_percentage)*ltp)) + 10,
-                     trigger_price = float(round((1 + sl_percentage)*ltp)),
+                     price = trig + 20,
+                     trigger_price = trig,
                      stop_loss = None,
                      square_off = None,
                      trailing_sl = None,

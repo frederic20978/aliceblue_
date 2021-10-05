@@ -119,6 +119,7 @@ def main():
         if datetime.now().time()>=till_time:
             try:
                 square_off(alice)
+                break
             except Exception as e:
                 print('Some error occured in squreoff ->',e)
                 logging.error('Some error occured in squreoff ->' + str(e))
