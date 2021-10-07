@@ -459,3 +459,82 @@ INFO:root:selling call option @ 109.5
 INFO:root:getting current atm_put price
 INFO:root:selling put option @ 51.55
 INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:Started Short Straddle @ 10/06/21-11:00:04
+INFO:root:logging in alice blue
+INFO:root:using existing token
+INFO:root:Login failed Alice...retrying in 1 mins
+INFO:root:logging in alice blue
+INFO:alice_blue.alice_blue:access_token - -BEhV0m4bvSUDtKDHOy2OahlubzL90iuG7N71WHwlUY.lry-VYo5kAZGB1PRp-dJd_RLzioBM4aUK6BzpPC3NDo
+INFO:alice_blue.alice_blue:Downloading master contracts for exchange: NSE
+INFO:alice_blue.alice_blue:Downloading master contracts for exchange: NFO
+INFO:root:Time is past 10.10. So exiting the program
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:Started Short Straddle @ 10/06/21-11:01:12
+INFO:root:logging in alice blue
+INFO:root:using existing token
+INFO:alice_blue.alice_blue:Downloading master contracts for exchange: NSE
+INFO:alice_blue.alice_blue:Downloading master contracts for exchange: NFO
+INFO:root:atm_ce37900..atm_pe37900
+INFO:root:getting current expiry date
+INFO:root:getting current atm_call price
+INFO:root:selling call option @ 211.0
+INFO:root:getting current atm_put price
+INFO:root:selling put option @ 178.4
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:Started Short Straddle @ 10/07/21-09:27:55
+INFO:root:logging in alice blue
+INFO:root:using existing token
+INFO:root:Login failed Alice...retrying in 1 mins
+INFO:root:logging in alice blue
+INFO:alice_blue.alice_blue:access_token - nsQCfoDD6wy4oRkMsW45oUyF6c5GL9Llo4nyJQ-a87Q.XVAGRT68bj328xr1iP4Z8JrOgG0b4OSWMcjL5ZA17K0
+INFO:alice_blue.alice_blue:Downloading master contracts for exchange: NSE
+INFO:alice_blue.alice_blue:Downloading master contracts for exchange: NFO
+INFO:root:Time not 10.00pm waiting for 1min
+INFO:root:Time not 10.00pm waiting for 1min
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:Started Short Straddle @ 10/07/21-09:30:40
+INFO:root:logging in alice blue
+INFO:root:using existing token
+INFO:alice_blue.alice_blue:Downloading master contracts for exchange: NSE
+INFO:alice_blue.alice_blue:Downloading master contracts for exchange: NFO
+INFO:root:atm_ce37800..atm_pe37800
+INFO:root:getting current expiry date
+INFO:root:getting current atm_call price
+INFO:root:selling call option @ 140.55
+INFO:root:getting current atm_put price
+INFO:root:selling put option @ 107.45
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:Started Short Straddle @ 10/07/21-09:33:16
+INFO:root:logging in alice blue
+INFO:root:using existing token
+INFO:alice_blue.alice_blue:Downloading master contracts for exchange: NSE
+INFO:alice_blue.alice_blue:Downloading master contracts for exchange: NFO
+INFO:root:atm_ce37800..atm_pe37800
+INFO:root:getting current expiry date
+INFO:root:getting current atm_call price
+INFO:root:selling call option @ 137.6
+INFO:root:getting current atm_put price
+INFO:root:selling put option @ 111.25
+INFO:root:Squaring off...BANKNIFTY21O0737800CE...type -> NRML...quantity -> -25
+INFO:root:Squaring off...BANKNIFTY21O0737800PE...type -> NRML...quantity -> -25
+ERROR:root:Some error occured in main:::->can only concatenate str (not "float") to str
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:Started Short Straddle @ 10/07/21-09:36:03
+INFO:root:logging in alice blue
+INFO:root:using existing token
+INFO:alice_blue.alice_blue:Downloading master contracts for exchange: NSE
+INFO:alice_blue.alice_blue:Downloading master contracts for exchange: NFO
+INFO:root:atm_ce37800..atm_pe37800
+INFO:root:getting current expiry date
+INFO:root:getting current atm_call price
+INFO:root:selling call option @ 152.25
+INFO:root:getting current atm_put price
+INFO:root:selling put option @ 96.8
+INFO:root:Success @ 151.8
+INFO:root:Success @ 97.1
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

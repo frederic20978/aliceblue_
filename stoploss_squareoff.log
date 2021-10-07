@@ -959,3 +959,138 @@ INFO:root:m2m not less than -9000 trying again in 1 mins 09/29/21-14:59:02
 INFO:root:Squaring off...BANKNIFTY21SEP37700CE...type -> NRML...quantity -> 0
 INFO:root:Squaring off...BANKNIFTY21SEP37700PE...type -> NRML...quantity -> -75
 INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+INFO:root:Started StopLoss Square off @ 10/06/21-11:56:02
+INFO:root:logging in alice blue
+INFO:root:using existing token
+INFO:alice_blue.alice_blue:Downloading master contracts for exchange: NSE
+INFO:alice_blue.alice_blue:Downloading master contracts for exchange: NFO
+INFO:root:BANKNIFTY21O0737900CE...m2m -> -5,145.00...unrealizedPnL -> -5,145.00
+INFO:root:BANKNIFTY21O0737900PE...m2m -> 3,795.00...unrealizedPnL -> 3,795.00
+INFO:root:BANKNIFTY21O0738000CE...m2m -> -373.75...unrealizedPnL -> 0.00
+INFO:root:BANKNIFTY21O0738000PE...m2m -> -6,127.50...unrealizedPnL -> 0.00
+INFO:root:Total PnL -> -7851.25
+INFO:root:m2m not less than -9000 trying again in 1 mins 10/06/21-11:56:05
+INFO:root:BANKNIFTY21O0737900CE...m2m -> -3,978.75...unrealizedPnL -> -3,978.75
+INFO:root:BANKNIFTY21O0737900PE...m2m -> 3,142.50...unrealizedPnL -> 3,142.50
+INFO:root:BANKNIFTY21O0738000CE...m2m -> -373.75...unrealizedPnL -> 0.00
+INFO:root:BANKNIFTY21O0738000PE...m2m -> -6,127.50...unrealizedPnL -> 0.00
+INFO:root:Total PnL -> -7337.5
+INFO:root:m2m not less than -9000 trying again in 1 mins 10/06/21-11:57:06
+INFO:root:BANKNIFTY21O0737900CE...m2m -> -4,368.75...unrealizedPnL -> -4,368.75
+INFO:root:BANKNIFTY21O0737900PE...m2m -> 3,213.75...unrealizedPnL -> 3,213.75
+INFO:root:BANKNIFTY21O0738000CE...m2m -> -373.75...unrealizedPnL -> 0.00
+INFO:root:BANKNIFTY21O0738000PE...m2m -> -6,127.50...unrealizedPnL -> 0.00
+INFO:root:Total PnL -> -7656.25
+INFO:root:m2m not less than -9000 trying again in 1 mins 10/06/21-11:58:07
+INFO:root:BANKNIFTY21O0737900CE...m2m -> -4,477.50...unrealizedPnL -> -4,477.50
+INFO:root:BANKNIFTY21O0737900PE...m2m -> 3,206.25...unrealizedPnL -> 3,206.25
+INFO:root:BANKNIFTY21O0738000CE...m2m -> -373.75...unrealizedPnL -> 0.00
+INFO:root:BANKNIFTY21O0738000PE...m2m -> -6,127.50...unrealizedPnL -> 0.00
+INFO:root:Total PnL -> -7772.5
+INFO:root:m2m not less than -9000 trying again in 1 mins 10/06/21-11:59:07
+INFO:root:BANKNIFTY21O0737900CE...m2m -> -4,211.25...unrealizedPnL -> -4,211.25
+INFO:root:BANKNIFTY21O0737900PE...m2m -> 3,101.25...unrealizedPnL -> 3,101.25
+INFO:root:BANKNIFTY21O0738000CE...m2m -> -373.75...unrealizedPnL -> 0.00
+INFO:root:BANKNIFTY21O0738000PE...m2m -> -6,127.50...unrealizedPnL -> 0.00
+INFO:root:Total PnL -> -7611.25
+INFO:root:m2m not less than -9000 trying again in 1 mins 10/06/21-12:00:08
+INFO:root:BANKNIFTY21O0737900CE...m2m -> -3,416.25...unrealizedPnL -> -3,416.25
+INFO:root:BANKNIFTY21O0737900PE...m2m -> 2,737.50...unrealizedPnL -> 2,737.50
+INFO:root:BANKNIFTY21O0738000CE...m2m -> -373.75...unrealizedPnL -> 0.00
+INFO:root:BANKNIFTY21O0738000PE...m2m -> -6,127.50...unrealizedPnL -> 0.00
+INFO:root:Total PnL -> -7180.0
+INFO:root:m2m not less than -9000 trying again in 1 mins 10/06/21-12:01:09
+INFO:root:BANKNIFTY21O0737900CE...m2m -> -3,337.50...unrealizedPnL -> -3,337.50
+INFO:root:BANKNIFTY21O0737900PE...m2m -> 2,696.25...unrealizedPnL -> 2,696.25
+INFO:root:BANKNIFTY21O0738000CE...m2m -> -373.75...unrealizedPnL -> 0.00
+INFO:root:BANKNIFTY21O0738000PE...m2m -> -6,127.50...unrealizedPnL -> 0.00
+INFO:root:Total PnL -> -7142.5
+INFO:root:m2m not less than -9000 trying again in 1 mins 10/06/21-12:02:10
+INFO:root:BANKNIFTY21O0737900CE...m2m -> -2,793.75...unrealizedPnL -> -2,793.75
+INFO:root:BANKNIFTY21O0737900PE...m2m -> 2,422.50...unrealizedPnL -> 2,422.50
+INFO:root:BANKNIFTY21O0738000CE...m2m -> -373.75...unrealizedPnL -> 0.00
+INFO:root:BANKNIFTY21O0738000PE...m2m -> -6,127.50...unrealizedPnL -> 0.00
+INFO:root:Total PnL -> -6872.5
+INFO:root:m2m not less than -9000 trying again in 1 mins 10/06/21-12:03:10
+INFO:root:BANKNIFTY21O0737900CE...m2m -> -3,622.50...unrealizedPnL -> -3,622.50
+INFO:root:BANKNIFTY21O0737900PE...m2m -> 2,865.00...unrealizedPnL -> 2,865.00
+INFO:root:BANKNIFTY21O0738000CE...m2m -> -373.75...unrealizedPnL -> 0.00
+INFO:root:BANKNIFTY21O0738000PE...m2m -> -6,127.50...unrealizedPnL -> 0.00
+INFO:root:Total PnL -> -7258.75
+INFO:root:m2m not less than -9000 trying again in 1 mins 10/06/21-12:04:11
+INFO:root:BANKNIFTY21O0737900CE...m2m -> -3,240.00...unrealizedPnL -> -3,240.00
+INFO:root:BANKNIFTY21O0737900PE...m2m -> 2,670.00...unrealizedPnL -> 2,670.00
+INFO:root:BANKNIFTY21O0738000CE...m2m -> -373.75...unrealizedPnL -> 0.00
+INFO:root:BANKNIFTY21O0738000PE...m2m -> -6,127.50...unrealizedPnL -> 0.00
+INFO:root:Total PnL -> -7071.25
+INFO:root:m2m not less than -9000 trying again in 1 mins 10/06/21-12:05:12
+INFO:root:BANKNIFTY21O0737900CE...m2m -> -3,783.75...unrealizedPnL -> -3,783.75
+INFO:root:BANKNIFTY21O0737900PE...m2m -> 3,041.25...unrealizedPnL -> 3,041.25
+INFO:root:BANKNIFTY21O0738000CE...m2m -> -373.75...unrealizedPnL -> 0.00
+INFO:root:BANKNIFTY21O0738000PE...m2m -> -6,127.50...unrealizedPnL -> 0.00
+INFO:root:Total PnL -> -7243.75
+INFO:root:m2m not less than -9000 trying again in 1 mins 10/06/21-12:06:12
+INFO:root:BANKNIFTY21O0737900CE...m2m -> -4,185.00...unrealizedPnL -> -4,185.00
+INFO:root:BANKNIFTY21O0737900PE...m2m -> 3,138.75...unrealizedPnL -> 3,138.75
+INFO:root:BANKNIFTY21O0738000CE...m2m -> -373.75...unrealizedPnL -> 0.00
+INFO:root:BANKNIFTY21O0738000PE...m2m -> -6,127.50...unrealizedPnL -> 0.00
+INFO:root:Total PnL -> -7547.5
+INFO:root:m2m not less than -9000 trying again in 1 mins 10/06/21-12:07:13
+INFO:root:BANKNIFTY21O0737900CE...m2m -> -4,736.25...unrealizedPnL -> -4,736.25
+INFO:root:BANKNIFTY21O0737900PE...m2m -> 3,547.50...unrealizedPnL -> 3,547.50
+INFO:root:BANKNIFTY21O0738000CE...m2m -> -373.75...unrealizedPnL -> 0.00
+INFO:root:BANKNIFTY21O0738000PE...m2m -> -6,127.50...unrealizedPnL -> 0.00
+INFO:root:Total PnL -> -7690.0
+INFO:root:m2m not less than -9000 trying again in 1 mins 10/06/21-12:08:13
+INFO:root:BANKNIFTY21O0737900CE...m2m -> -6,398.75...unrealizedPnL -> 0.00
+INFO:root:BANKNIFTY21O0737900PE...m2m -> 4,395.00...unrealizedPnL -> 4,395.00
+INFO:root:BANKNIFTY21O0738000CE...m2m -> -373.75...unrealizedPnL -> 0.00
+INFO:root:BANKNIFTY21O0738000PE...m2m -> -6,127.50...unrealizedPnL -> 0.00
+INFO:root:Total PnL -> -8505.0
+INFO:root:m2m not less than -9000 trying again in 1 mins 10/06/21-12:09:14
+INFO:root:BANKNIFTY21O0737900CE...m2m -> -6,398.75...unrealizedPnL -> 0.00
+INFO:root:BANKNIFTY21O0737900PE...m2m -> 4,383.75...unrealizedPnL -> 4,383.75
+INFO:root:BANKNIFTY21O0738000CE...m2m -> -373.75...unrealizedPnL -> 0.00
+INFO:root:BANKNIFTY21O0738000PE...m2m -> -6,127.50...unrealizedPnL -> 0.00
+INFO:root:Total PnL -> -8516.25
+INFO:root:m2m not less than -9000 trying again in 1 mins 10/06/21-12:10:15
+INFO:root:BANKNIFTY21O0737900CE...m2m -> -6,398.75...unrealizedPnL -> 0.00
+INFO:root:BANKNIFTY21O0737900PE...m2m -> 4,218.75...unrealizedPnL -> 4,218.75
+INFO:root:BANKNIFTY21O0738000CE...m2m -> -373.75...unrealizedPnL -> 0.00
+INFO:root:BANKNIFTY21O0738000PE...m2m -> -6,127.50...unrealizedPnL -> 0.00
+INFO:root:Total PnL -> -8681.25
+INFO:root:m2m not less than -9000 trying again in 1 mins 10/06/21-12:11:15
+INFO:root:BANKNIFTY21O0737900CE...m2m -> -6,398.75...unrealizedPnL -> 0.00
+INFO:root:BANKNIFTY21O0737900PE...m2m -> 4,113.75...unrealizedPnL -> 4,113.75
+INFO:root:BANKNIFTY21O0738000CE...m2m -> -373.75...unrealizedPnL -> 0.00
+INFO:root:BANKNIFTY21O0738000PE...m2m -> -6,127.50...unrealizedPnL -> 0.00
+INFO:root:Total PnL -> -8786.25
+INFO:root:m2m not less than -9000 trying again in 1 mins 10/06/21-12:12:16
+INFO:root:BANKNIFTY21O0737900CE...m2m -> -6,398.75...unrealizedPnL -> 0.00
+INFO:root:BANKNIFTY21O0737900PE...m2m -> 4,271.25...unrealizedPnL -> 4,271.25
+INFO:root:BANKNIFTY21O0738000CE...m2m -> -373.75...unrealizedPnL -> 0.00
+INFO:root:BANKNIFTY21O0738000PE...m2m -> -6,127.50...unrealizedPnL -> 0.00
+INFO:root:Total PnL -> -8628.75
+INFO:root:m2m not less than -9000 trying again in 1 mins 10/06/21-12:13:17
+INFO:root:BANKNIFTY21O0737900CE...m2m -> -6,398.75...unrealizedPnL -> 0.00
+INFO:root:BANKNIFTY21O0737900PE...m2m -> 3,975.00...unrealizedPnL -> 3,975.00
+INFO:root:BANKNIFTY21O0738000CE...m2m -> -373.75...unrealizedPnL -> 0.00
+INFO:root:BANKNIFTY21O0738000PE...m2m -> -6,127.50...unrealizedPnL -> 0.00
+INFO:root:Total PnL -> -8925.0
+INFO:root:m2m not less than -9000 trying again in 1 mins 10/06/21-12:14:18
+INFO:root:BANKNIFTY21O0737900CE...m2m -> -6,398.75...unrealizedPnL -> 0.00
+INFO:root:BANKNIFTY21O0737900PE...m2m -> 4,016.25...unrealizedPnL -> 4,016.25
+INFO:root:BANKNIFTY21O0738000CE...m2m -> -373.75...unrealizedPnL -> 0.00
+INFO:root:BANKNIFTY21O0738000PE...m2m -> -6,127.50...unrealizedPnL -> 0.00
+INFO:root:Total PnL -> -8883.75
+INFO:root:m2m not less than -9000 trying again in 1 mins 10/06/21-12:15:19
+INFO:root:BANKNIFTY21O0737900CE...m2m -> -6,398.75...unrealizedPnL -> 0.00
+INFO:root:BANKNIFTY21O0737900PE...m2m -> 3,686.25...unrealizedPnL -> 3,686.25
+INFO:root:BANKNIFTY21O0738000CE...m2m -> -373.75...unrealizedPnL -> 0.00
+INFO:root:BANKNIFTY21O0738000PE...m2m -> -6,127.50...unrealizedPnL -> 0.00
+INFO:root:Total PnL -> -9213.75
+INFO:root:Squaring off...BANKNIFTY21O0737900CE...type -> NRML...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY21O0737900PE...type -> NRML...quantity -> -75
+INFO:root:Squaring off...BANKNIFTY21O0738000CE...type -> NRML...quantity -> 0
+INFO:root:Squaring off...BANKNIFTY21O0738000PE...type -> NRML...quantity -> 0

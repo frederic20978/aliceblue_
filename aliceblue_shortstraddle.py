@@ -25,7 +25,7 @@ app_id = data['app_id']
 
 nse_holiday = [date(2021,7,21), date(2021,8,19), date(2021,9,10), date(2021,10,15), date(2021,11,5), date(2021,11,19)]
 
-no_of_lots = 3
+no_of_lots = 1
 sl = [ 0.2, 0.3, 0.4, 0.4, 0.2, 0.05, 0.05]
 curr_orders = []
 
@@ -68,23 +68,23 @@ def sell_ce_option(bn_call,ce_price):
                          square_off = None,
                          trailing_sl = None,
                          is_amo = False)
-
-    trig = float(round((1 + sl_percentage)*ltp))
     curr_orders.append(sell_order['data']['oms_order_id'])
 
-    if sell_order['status'] == 'success':
-        sl_order = alice.place_order(transaction_type = TransactionType.Buy,
-                     instrument = bn_call,
-                     quantity = quantity,
-                     order_type = OrderType.StopLossLimit,
-                     product_type = ProductType.Delivery,
-                     price = trig+20,
-                     trigger_price = trig,
-                     stop_loss = None,
-                     square_off = None,
-                     trailing_sl = None,
-                     is_amo = False)
-    curr_orders.append(sl_order['data']['oms_order_id'])
+def ce_option_stoploss_order(sellPrice):
+    quantity = no_of_lots*int(bn_call[5])
+    sl_percentage = sl[date.today().weekday()]
+    trig = float(round((1 + sl_percentage)*sellPrice))
+    sl_order = alice.place_order(transaction_type = TransactionType.Buy,
+                    instrument = bn_call,
+                    quantity = quantity,
+                    order_type = OrderType.StopLossLimit,
+                    product_type = ProductType.Delivery,
+                    price = trig+20,
+                    trigger_price = trig,
+                    stop_loss = None,
+                    square_off = None,
+                    trailing_sl = None,
+                    is_amo = False)
 
 
 def sell_pe_option(bn_put,pe_price):
@@ -105,23 +105,23 @@ def sell_pe_option(bn_put,pe_price):
                          square_off = None,
                          trailing_sl = None,
                          is_amo = False)
-
-    trig = float(round((1 + sl_percentage)*ltp))
     curr_orders.append(sell_order['data']['oms_order_id'])
-
-    if sell_order['status'] == 'success':
-        sl_order = alice.place_order(transaction_type = TransactionType.Buy,
-                     instrument = bn_put,
-                     quantity = quantity,
-                     order_type = OrderType.StopLossLimit,
-                     product_type = ProductType.Delivery,
-                     price = trig + 20,
-                     trigger_price = trig,
-                     stop_loss = None,
-                     square_off = None,
-                     trailing_sl = None,
-                     is_amo = False)
-    curr_orders.append(sl_order['data']['oms_order_id'])
+    
+def pe_option_stoploss_order(sellPrice):
+    quantity = no_of_lots*int(bn_put[5])
+    sl_percentage = sl[date.today().weekday()]
+    trig = float(round((1 + sl_percentage)*sellPrice))
+    sl_order = alice.place_order(transaction_type = TransactionType.Buy,
+                    instrument = bn_put,
+                    quantity = quantity,
+                    order_type = OrderType.StopLossLimit,
+                    product_type = ProductType.Delivery,
+                    price = trig+20,
+                    trigger_price = trig,
+                    stop_loss = None,
+                    square_off = None,
+                    trailing_sl = None,
+                    is_amo = False)
 
 def get_date_curr_expiry(atm_ce):
     print('getting current expiry date')
@@ -245,12 +245,12 @@ def main():
 
         order_placed = False
         try:
-            while datetime.now().time()<=time(10,00):
+            while datetime.now().time()<=time(00,00):
                 print('Time not 10.00pm waiting for 1min')
                 logging.info('Time not 10.00pm waiting for 1min')
                 sleep(60)
 
-            if datetime.now().time()<=time(10,10):
+            if datetime.now().time()<=time(12,10):
                 try:
                     while order_placed==False:
                         curr_ltp = get_BankNIftyIndexPrice()
@@ -262,11 +262,19 @@ def main():
                         get_date_curr_expiry(atm_ce)
                         get_ce_curr_price(atm_ce)
                         get_pe_curr_price(atm_pe)
-                        sleep(2)
+                        sleep(5)
                         for order_ in curr_orders:
                             x = alice.get_order_history(order_)
                             print(x['data'][0])
-                            if x['data'][0]['order_status'] == 'rejected':
+                            if x['data'][0]['order_status'] == 'complete':
+                                print("Sucess @",x['data'][0]['average_price'])
+                                logging.info("Success @ "+str(x['data'][0]['average_price']))
+                                if x['data'][0]['trading_symbol'].find('PE') == -1:
+                                    ce_option_stoploss_order(x['data'][0]['average_price'])
+                                else:
+                                    pe_option_stoploss_order(x['data'][0]['average_price'])
+                                
+                            else:
                                 print("Rej")
                                 logging.info("Rej")
                                 square_off(alice)

@@ -8,7 +8,7 @@ from datetime import datetime,timedelta,date,time
 from square_off import square_off
 
 username = '313008'
-password = 'Joel@2001'
+password = 'Joel@2002'
 api_secret = 'G9wMhSURQUbHJyFa7nrhRCiLiVmOKUO6nJ7FwjuNQh5P82ORcfxQmLMS4u3ZBjK0'
 twoFA = 'sheeja'
 app_id = 'Ja8cd2b8sD'

@@ -116,7 +116,7 @@ def main():
             print('Some error occured -> ',e)
             logging.error('Some error occured -> ' + str(e))
             
-        if datetime.now().time()>=till_time:
+        if datetime.now().time()>=till_time | is_squared_off:
             try:
                 square_off(alice)
                 break
