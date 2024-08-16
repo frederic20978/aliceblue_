@@ -1,0 +1,16 @@
+Project Overview:
+  This project involved the creation and deployment of a Python script to execute a short straddle trading strategy using the Alice Blue broker APIs. The script was designed to automate the strategy, executing trades based on predefined conditions. The implementation was hosted on an AWS EC2 server and ran continuously for approximately six months.
+
+Technical Details:
+  Brokerage API: Alice Blue
+  Strategy: Short Straddle
+  Description: The short straddle strategy involves selling both a call and a put option at the same strike price, typically at-the-money, with the expectation that the underlying asset will not experience significant price movement, leading to both options expiring worthless.
+  Hosting: AWS EC2 Server
+  Duration: 6 months
+  Automation: The script was automated to monitor the market, execute trades, and manage positions without manual intervention.
+  Performance Summary:
+  Outcome: The strategy resulted in losses over the six-month period.
+Reason for Losses:
+  Market conditions not favorable for short straddle strategy.
+  Possible slippage or execution delays due to API response times or network latency.
+  Other unforeseen risks or issues not accounted for in the initial model.
